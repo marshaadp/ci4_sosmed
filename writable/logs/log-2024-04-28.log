@@ -1,0 +1,650 @@
+CRITICAL - 2024-04-28 07:27:40 --> ParseError: syntax error, unexpected identifier "home", expecting "]"
+[Method: GET, Route: /]
+in APPPATH\Controllers\HelloController.php on line 13.
+ 1 VENDORPATH\composer\ClassLoader.php(427): Composer\Autoload\{closure}('C:\\xampp\\htdocs\\sosmed\\vendor\\composer/../../app\\Controllers\\HelloController.php')
+ 2 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Controllers\\HelloController')
+ 3 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\HelloController', true)
+ 4 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\sosmed\\public\\index.php')
+CRITICAL - 2024-04-28 07:31:27 --> ErrorException: Undefined variable $name
+[Method: GET, Route: /]
+in APPPATH\Views\index.php on line 4.
+ 1 APPPATH\Views\index.php(4): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $name', 'C:\\xampp\\htdocs\\sosmed\\app\\Views\\index.php', 4)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\sosmed\\app\\Views\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('index', [], true)
+ 5 APPPATH\Controllers\HelloController.php(17): view('index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\HelloController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HelloController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\sosmed\\public\\index.php')
+CRITICAL - 2024-04-28 07:31:35 --> ErrorException: Undefined variable $name
+[Method: GET, Route: /]
+in APPPATH\Views\index.php on line 4.
+ 1 APPPATH\Views\index.php(4): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $name', 'C:\\xampp\\htdocs\\sosmed\\app\\Views\\index.php', 4)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\sosmed\\app\\Views\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('index', [], true)
+ 5 APPPATH\Controllers\HelloController.php(17): view('index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\HelloController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HelloController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\sosmed\\public\\index.php')
+CRITICAL - 2024-04-28 07:31:36 --> ErrorException: Undefined variable $name
+[Method: GET, Route: /]
+in APPPATH\Views\index.php on line 4.
+ 1 APPPATH\Views\index.php(4): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $name', 'C:\\xampp\\htdocs\\sosmed\\app\\Views\\index.php', 4)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\sosmed\\app\\Views\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('index', [], true)
+ 5 APPPATH\Controllers\HelloController.php(17): view('index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\HelloController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HelloController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\sosmed\\public\\index.php')
+CRITICAL - 2024-04-28 07:38:43 --> ErrorException: include(core/init.php): Failed to open stream: No such file or directory
+[Method: GET, Route: /]
+in APPPATH\Views\index.php on line 4.
+ 1 APPPATH\Views\index.php(4): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(core/init.php): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\sosmed\\app\\Views\\index.php', 4)
+ 2 APPPATH\Views\index.php(4): include()
+ 3 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\sosmed\\app\\Views\\index.php')
+ 4 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('index', [], true)
+ 6 APPPATH\Controllers\HelloController.php(17): view('index', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\HelloController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HelloController))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\sosmed\\public\\index.php')
+CRITICAL - 2024-04-28 07:53:38 --> ErrorException: include(core/init.php): Failed to open stream: No such file or directory
+[Method: GET, Route: /]
+in APPPATH\Views\index.php on line 4.
+ 1 APPPATH\Views\index.php(4): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(core/init.php): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\sosmed\\app\\Views\\index.php', 4)
+ 2 APPPATH\Views\index.php(4): include()
+ 3 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\sosmed\\app\\Views\\index.php')
+ 4 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('index', [], true)
+ 6 APPPATH\Controllers\HelloController.php(17): view('index', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\HelloController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HelloController))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\sosmed\\public\\index.php')
+CRITICAL - 2024-04-28 08:39:32 --> Error: Call to a member function get() on null
+[Method: GET, Route: profile]
+in APPPATH\Controllers\Profile.php on line 38.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Profile->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profile))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\sosmed\\public\\index.php')
+CRITICAL - 2024-04-28 08:39:48 --> Error: Call to a member function get() on null
+[Method: GET, Route: profile]
+in APPPATH\Controllers\Profile.php on line 38.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Profile->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profile))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\sosmed\\public\\index.php')
+CRITICAL - 2024-04-28 09:16:48 --> Error: Call to a member function get() on null
+[Method: GET, Route: profile]
+in APPPATH\Controllers\Profile.php on line 38.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Profile->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profile))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\sosmed\\public\\index.php')
+CRITICAL - 2024-04-28 09:20:30 --> Error: Call to a member function get() on null
+[Method: GET, Route: profile]
+in APPPATH\Controllers\Profile.php on line 38.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Profile->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profile))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\sosmed\\public\\index.php')
+CRITICAL - 2024-04-28 09:20:31 --> Error: Call to a member function get() on null
+[Method: GET, Route: profile]
+in APPPATH\Controllers\Profile.php on line 38.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Profile->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profile))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\sosmed\\public\\index.php')
+CRITICAL - 2024-04-28 09:22:33 --> Error: Call to a member function get() on null
+[Method: GET, Route: profile]
+in APPPATH\Controllers\Profile.php on line 38.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Profile->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profile))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\sosmed\\public\\index.php')
+CRITICAL - 2024-04-28 09:23:23 --> Error: Call to a member function get() on null
+[Method: GET, Route: profile]
+in APPPATH\Controllers\Profile.php on line 38.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Profile->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profile))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\sosmed\\public\\index.php')
+CRITICAL - 2024-04-28 09:26:28 --> Error: Call to a member function get() on null
+[Method: GET, Route: profile]
+in APPPATH\Controllers\Profile.php on line 38.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Profile->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profile))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\sosmed\\public\\index.php')
+CRITICAL - 2024-04-28 09:27:02 --> Error: Call to a member function get() on null
+[Method: GET, Route: profile]
+in APPPATH\Controllers\Profile.php on line 38.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Profile->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profile))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\sosmed\\public\\index.php')
+CRITICAL - 2024-04-28 09:27:02 --> Error: Call to a member function get() on null
+[Method: GET, Route: profile]
+in APPPATH\Controllers\Profile.php on line 38.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Profile->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profile))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\sosmed\\public\\index.php')
+CRITICAL - 2024-04-28 09:28:11 --> Error: Call to a member function get() on null
+[Method: GET, Route: Profile]
+in APPPATH\Controllers\Profile.php on line 38.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Profile->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profile))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\sosmed\\public\\index.php')
+CRITICAL - 2024-04-28 09:30:12 --> Error: Call to a member function get() on null
+[Method: GET, Route: Profile]
+in APPPATH\Controllers\Profile.php on line 38.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Profile->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profile))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\sosmed\\public\\index.php')
+CRITICAL - 2024-04-28 09:38:37 --> Error: Call to a member function get() on null
+[Method: GET, Route: Profile]
+in APPPATH\Controllers\Profile.php on line 38.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Profile->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profile))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\sosmed\\public\\index.php')
+CRITICAL - 2024-04-28 09:44:59 --> Error: Call to a member function get() on null
+[Method: GET, Route: Profile]
+in APPPATH\Controllers\Profile.php on line 38.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Profile->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profile))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\sosmed\\public\\index.php')
+CRITICAL - 2024-04-28 09:53:43 --> Error: Call to a member function get() on null
+[Method: GET, Route: Profile]
+in APPPATH\Controllers\Profile.php on line 38.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Profile->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profile))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\sosmed\\public\\index.php')
+CRITICAL - 2024-04-28 09:55:45 --> Error: Call to a member function get() on null
+[Method: GET, Route: Profile]
+in APPPATH\Controllers\Profile.php on line 38.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Profile->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profile))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\sosmed\\public\\index.php')
+CRITICAL - 2024-04-28 09:55:45 --> Error: Call to a member function get() on null
+[Method: GET, Route: Profile]
+in APPPATH\Controllers\Profile.php on line 38.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Profile->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profile))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\sosmed\\public\\index.php')
+CRITICAL - 2024-04-28 09:55:46 --> Error: Call to a member function get() on null
+[Method: GET, Route: Profile]
+in APPPATH\Controllers\Profile.php on line 38.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Profile->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profile))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\sosmed\\public\\index.php')
+CRITICAL - 2024-04-28 09:55:46 --> Error: Call to a member function get() on null
+[Method: GET, Route: Profile]
+in APPPATH\Controllers\Profile.php on line 38.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Profile->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profile))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\sosmed\\public\\index.php')
+CRITICAL - 2024-04-28 09:55:46 --> Error: Call to a member function get() on null
+[Method: GET, Route: Profile]
+in APPPATH\Controllers\Profile.php on line 38.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Profile->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profile))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\sosmed\\public\\index.php')
+CRITICAL - 2024-04-28 09:55:46 --> Error: Call to a member function get() on null
+[Method: GET, Route: Profile]
+in APPPATH\Controllers\Profile.php on line 38.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Profile->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profile))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\sosmed\\public\\index.php')
+CRITICAL - 2024-04-28 09:55:46 --> Error: Call to a member function get() on null
+[Method: GET, Route: Profile]
+in APPPATH\Controllers\Profile.php on line 38.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Profile->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profile))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\sosmed\\public\\index.php')
+CRITICAL - 2024-04-28 09:55:46 --> Error: Call to a member function get() on null
+[Method: GET, Route: Profile]
+in APPPATH\Controllers\Profile.php on line 38.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Profile->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profile))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\sosmed\\public\\index.php')
+CRITICAL - 2024-04-28 09:56:00 --> Error: Call to a member function get() on null
+[Method: GET, Route: Profile]
+in APPPATH\Controllers\Profile.php on line 38.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Profile->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profile))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\sosmed\\public\\index.php')
+CRITICAL - 2024-04-28 09:57:31 --> Error: Call to a member function get() on null
+[Method: GET, Route: Profile]
+in APPPATH\Controllers\Profile.php on line 38.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Profile->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profile))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\sosmed\\public\\index.php')
+CRITICAL - 2024-04-28 12:39:30 --> ErrorException: Undefined variable $profile
+[Method: GET, Route: /]
+in APPPATH\Views\index.php on line 15.
+ 1 APPPATH\Views\index.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $profile', 'C:\\xampp\\htdocs\\sosmed\\app\\Views\\index.php', 15)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\sosmed\\app\\Views\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('index', [], true)
+ 5 APPPATH\Controllers\HelloController.php(17): view('index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\HelloController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HelloController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\sosmed\\public\\index.php')
+CRITICAL - 2024-04-28 12:40:10 --> ErrorException: Class Config\Routes contains 19 abstract methods and must therefore be declared abstract or implement the remaining methods (CodeIgniter\Router\RouteCollectionInterface::add, CodeIgniter\Router\RouteCollectionInterface::addPlaceholder, CodeIgniter\Router\RouteCollectionInterface::setDefaultNamespace, ...)
+[Method: GET, Route: /]
+in APPPATH\Config\Routes.php on line 8.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-04-28 12:40:11 --> ErrorException: Class Config\Routes contains 19 abstract methods and must therefore be declared abstract or implement the remaining methods (CodeIgniter\Router\RouteCollectionInterface::add, CodeIgniter\Router\RouteCollectionInterface::addPlaceholder, CodeIgniter\Router\RouteCollectionInterface::setDefaultNamespace, ...)
+[Method: GET, Route: /]
+in APPPATH\Config\Routes.php on line 8.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-04-28 12:40:11 --> ErrorException: Class Config\Routes contains 19 abstract methods and must therefore be declared abstract or implement the remaining methods (CodeIgniter\Router\RouteCollectionInterface::add, CodeIgniter\Router\RouteCollectionInterface::addPlaceholder, CodeIgniter\Router\RouteCollectionInterface::setDefaultNamespace, ...)
+[Method: GET, Route: /]
+in APPPATH\Config\Routes.php on line 8.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-04-28 12:40:12 --> ErrorException: Class Config\Routes contains 19 abstract methods and must therefore be declared abstract or implement the remaining methods (CodeIgniter\Router\RouteCollectionInterface::add, CodeIgniter\Router\RouteCollectionInterface::addPlaceholder, CodeIgniter\Router\RouteCollectionInterface::setDefaultNamespace, ...)
+[Method: GET, Route: /]
+in APPPATH\Config\Routes.php on line 8.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-04-28 12:40:12 --> ErrorException: Class Config\Routes contains 19 abstract methods and must therefore be declared abstract or implement the remaining methods (CodeIgniter\Router\RouteCollectionInterface::add, CodeIgniter\Router\RouteCollectionInterface::addPlaceholder, CodeIgniter\Router\RouteCollectionInterface::setDefaultNamespace, ...)
+[Method: GET, Route: /]
+in APPPATH\Config\Routes.php on line 8.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-04-28 12:40:12 --> ErrorException: Class Config\Routes contains 19 abstract methods and must therefore be declared abstract or implement the remaining methods (CodeIgniter\Router\RouteCollectionInterface::add, CodeIgniter\Router\RouteCollectionInterface::addPlaceholder, CodeIgniter\Router\RouteCollectionInterface::setDefaultNamespace, ...)
+[Method: GET, Route: /]
+in APPPATH\Config\Routes.php on line 8.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-04-28 12:40:56 --> ErrorException: Class Config\Routes contains 19 abstract methods and must therefore be declared abstract or implement the remaining methods (CodeIgniter\Router\RouteCollectionInterface::add, CodeIgniter\Router\RouteCollectionInterface::addPlaceholder, CodeIgniter\Router\RouteCollectionInterface::setDefaultNamespace, ...)
+[Method: GET, Route: /]
+in APPPATH\Config\Routes.php on line 8.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-04-28 12:41:02 --> ErrorException: Class Config\Routes contains 19 abstract methods and must therefore be declared abstract or implement the remaining methods (CodeIgniter\Router\RouteCollectionInterface::add, CodeIgniter\Router\RouteCollectionInterface::addPlaceholder, CodeIgniter\Router\RouteCollectionInterface::setDefaultNamespace, ...)
+[Method: GET, Route: twitter]
+in APPPATH\Config\Routes.php on line 8.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-04-28 12:41:09 --> ErrorException: Class Config\Routes contains 19 abstract methods and must therefore be declared abstract or implement the remaining methods (CodeIgniter\Router\RouteCollectionInterface::add, CodeIgniter\Router\RouteCollectionInterface::addPlaceholder, CodeIgniter\Router\RouteCollectionInterface::setDefaultNamespace, ...)
+[Method: GET, Route: Twitter]
+in APPPATH\Config\Routes.php on line 8.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-04-28 12:43:14 --> ErrorException: Class Config\Routes contains 19 abstract methods and must therefore be declared abstract or implement the remaining methods (CodeIgniter\Router\RouteCollectionInterface::add, CodeIgniter\Router\RouteCollectionInterface::addPlaceholder, CodeIgniter\Router\RouteCollectionInterface::setDefaultNamespace, ...)
+[Method: CLI, Route: serve]
+in APPPATH\Config\Routes.php on line 8.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-04-28 12:43:33 --> ErrorException: Class Config\Routes contains 19 abstract methods and must therefore be declared abstract or implement the remaining methods (CodeIgniter\Router\RouteCollectionInterface::add, CodeIgniter\Router\RouteCollectionInterface::addPlaceholder, CodeIgniter\Router\RouteCollectionInterface::setDefaultNamespace, ...)
+[Method: CLI, Route: serve]
+in APPPATH\Config\Routes.php on line 8.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-04-28 12:43:47 --> ErrorException: Undefined variable $profile
+[Method: GET, Route: /]
+in APPPATH\Views\index.php on line 15.
+ 1 APPPATH\Views\index.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $profile', 'C:\\xampp\\htdocs\\sosmed\\app\\Views\\index.php', 15)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\sosmed\\app\\Views\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('index', [], true)
+ 5 APPPATH\Controllers\HelloController.php(17): view('index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\HelloController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HelloController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\sosmed\\public\\index.php')
+CRITICAL - 2024-04-28 12:44:35 --> ErrorException: Undefined variable $profile
+[Method: GET, Route: /]
+in APPPATH\Views\index.php on line 15.
+ 1 APPPATH\Views\index.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $profile', 'C:\\xampp\\htdocs\\sosmed\\app\\Views\\index.php', 15)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\sosmed\\app\\Views\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('index', [], true)
+ 5 APPPATH\Controllers\HelloController.php(17): view('index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\HelloController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HelloController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\sosmed\\public\\index.php')
+CRITICAL - 2024-04-28 12:44:53 --> ErrorException: Undefined variable $profile
+[Method: GET, Route: /]
+in APPPATH\Views\index.php on line 15.
+ 1 APPPATH\Views\index.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $profile', 'C:\\xampp\\htdocs\\sosmed\\app\\Views\\index.php', 15)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\sosmed\\app\\Views\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('index', [], true)
+ 5 APPPATH\Controllers\HelloController.php(17): view('index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\HelloController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HelloController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\sosmed\\public\\index.php')
+CRITICAL - 2024-04-28 12:44:57 --> ErrorException: Undefined variable $profile
+[Method: GET, Route: /]
+in APPPATH\Views\index.php on line 15.
+ 1 APPPATH\Views\index.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $profile', 'C:\\xampp\\htdocs\\sosmed\\app\\Views\\index.php', 15)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\sosmed\\app\\Views\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('index', [], true)
+ 5 APPPATH\Controllers\HelloController.php(17): view('index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\HelloController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HelloController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\sosmed\\public\\index.php')
+CRITICAL - 2024-04-28 12:44:59 --> ErrorException: Undefined variable $profile
+[Method: GET, Route: /]
+in APPPATH\Views\index.php on line 15.
+ 1 APPPATH\Views\index.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $profile', 'C:\\xampp\\htdocs\\sosmed\\app\\Views\\index.php', 15)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\sosmed\\app\\Views\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('index', [], true)
+ 5 APPPATH\Controllers\HelloController.php(17): view('index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\HelloController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HelloController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\sosmed\\public\\index.php')
+CRITICAL - 2024-04-28 12:45:00 --> ErrorException: Undefined variable $profile
+[Method: GET, Route: /]
+in APPPATH\Views\index.php on line 15.
+ 1 APPPATH\Views\index.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $profile', 'C:\\xampp\\htdocs\\sosmed\\app\\Views\\index.php', 15)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\sosmed\\app\\Views\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('index', [], true)
+ 5 APPPATH\Controllers\HelloController.php(17): view('index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\HelloController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HelloController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\sosmed\\public\\index.php')
+CRITICAL - 2024-04-28 12:45:00 --> ErrorException: Undefined variable $profile
+[Method: GET, Route: /]
+in APPPATH\Views\index.php on line 15.
+ 1 APPPATH\Views\index.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $profile', 'C:\\xampp\\htdocs\\sosmed\\app\\Views\\index.php', 15)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\sosmed\\app\\Views\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('index', [], true)
+ 5 APPPATH\Controllers\HelloController.php(17): view('index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\HelloController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HelloController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\sosmed\\public\\index.php')
+CRITICAL - 2024-04-28 12:45:00 --> ErrorException: Undefined variable $profile
+[Method: GET, Route: /]
+in APPPATH\Views\index.php on line 15.
+ 1 APPPATH\Views\index.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $profile', 'C:\\xampp\\htdocs\\sosmed\\app\\Views\\index.php', 15)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\sosmed\\app\\Views\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('index', [], true)
+ 5 APPPATH\Controllers\HelloController.php(17): view('index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\HelloController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HelloController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\sosmed\\public\\index.php')
+CRITICAL - 2024-04-28 12:54:40 --> ErrorException: Undefined variable $profile
+[Method: GET, Route: /]
+in APPPATH\Views\index.php on line 15.
+ 1 APPPATH\Views\index.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $profile', 'C:\\xampp\\htdocs\\sosmed\\app\\Views\\index.php', 15)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\sosmed\\app\\Views\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('index', [], true)
+ 5 APPPATH\Controllers\HelloController.php(17): view('index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\HelloController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HelloController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\sosmed\\public\\index.php')
+CRITICAL - 2024-04-28 12:54:42 --> ErrorException: Undefined variable $profile
+[Method: GET, Route: /]
+in APPPATH\Views\index.php on line 15.
+ 1 APPPATH\Views\index.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $profile', 'C:\\xampp\\htdocs\\sosmed\\app\\Views\\index.php', 15)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\sosmed\\app\\Views\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('index', [], true)
+ 5 APPPATH\Controllers\HelloController.php(17): view('index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\HelloController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HelloController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\sosmed\\public\\index.php')
+CRITICAL - 2024-04-28 12:54:54 --> ErrorException: Undefined variable $profile
+[Method: GET, Route: /]
+in APPPATH\Views\index.php on line 15.
+ 1 APPPATH\Views\index.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $profile', 'C:\\xampp\\htdocs\\sosmed\\app\\Views\\index.php', 15)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\sosmed\\app\\Views\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('index', [], true)
+ 5 APPPATH\Controllers\HelloController.php(17): view('index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\HelloController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HelloController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\sosmed\\public\\index.php')
+CRITICAL - 2024-04-28 12:56:24 --> ParseError: syntax error, unexpected token "}", expecting "," or ";"
+[Method: GET, Route: /]
+in APPPATH\Controllers\HelloController.php on line 13.
+ 1 VENDORPATH\composer\ClassLoader.php(427): Composer\Autoload\{closure}('C:\\xampp\\htdocs\\sosmed\\vendor\\composer/../../app\\Controllers\\HelloController.php')
+ 2 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Controllers\\HelloController')
+ 3 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\HelloController', true)
+ 4 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\sosmed\\public\\index.php')
+CRITICAL - 2024-04-28 13:05:03 --> ErrorException: Undefined variable $name
+[Method: GET, Route: /]
+in APPPATH\Views\index.php on line 4.
+ 1 APPPATH\Views\index.php(4): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $name', 'C:\\xampp\\htdocs\\sosmed\\app\\Views\\index.php', 4)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\sosmed\\app\\Views\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('index', [], true)
+ 5 APPPATH\Controllers\HelloController.php(28): view('index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\HelloController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HelloController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\sosmed\\public\\index.php')
+CRITICAL - 2024-04-28 14:32:27 --> ParseError: syntax error, unexpected token "<"
+[Method: GET, Route: /]
+in APPPATH\Controllers\HelloController.php on line 16.
+ 1 VENDORPATH\composer\ClassLoader.php(427): Composer\Autoload\{closure}('C:\\xampp\\htdocs\\sosmed\\vendor\\composer/../../app\\Controllers\\HelloController.php')
+ 2 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Controllers\\HelloController')
+ 3 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\HelloController', true)
+ 4 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\sosmed\\public\\index.php')
+CRITICAL - 2024-04-28 16:23:16 --> ErrorException: include(core/init.php): Failed to open stream: No such file or directory
+[Method: GET, Route: /]
+in APPPATH\Views\index.php on line 2.
+ 1 APPPATH\Views\index.php(2): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(core/init.php): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\sosmed\\app\\Views\\index.php', 2)
+ 2 APPPATH\Views\index.php(2): include()
+ 3 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\sosmed\\app\\Views\\index.php')
+ 4 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('index', [], true)
+ 6 APPPATH\Controllers\HelloController.php(11): view('index')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\HelloController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HelloController))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\sosmed\\public\\index.php')
+CRITICAL - 2024-04-28 16:26:55 --> ErrorException: include(core/init.php): Failed to open stream: No such file or directory
+[Method: GET, Route: /]
+in APPPATH\Views\home.php on line 2.
+ 1 APPPATH\Views\home.php(2): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(core/init.php): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\sosmed\\app\\Views\\home.php', 2)
+ 2 APPPATH\Views\home.php(2): include()
+ 3 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\sosmed\\app\\Views\\home.php')
+ 4 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('home', [], true)
+ 6 APPPATH\Controllers\HelloController.php(11): view('home')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\HelloController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HelloController))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\sosmed\\public\\index.php')
+CRITICAL - 2024-04-28 16:26:58 --> ErrorException: include(core/init.php): Failed to open stream: No such file or directory
+[Method: GET, Route: /]
+in APPPATH\Views\home.php on line 2.
+ 1 APPPATH\Views\home.php(2): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(core/init.php): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\sosmed\\app\\Views\\home.php', 2)
+ 2 APPPATH\Views\home.php(2): include()
+ 3 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\sosmed\\app\\Views\\home.php')
+ 4 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('home', [], true)
+ 6 APPPATH\Controllers\HelloController.php(11): view('home')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\HelloController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HelloController))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\sosmed\\public\\index.php')
