@@ -1,0 +1,190 @@
+CRITICAL - 2024-04-29 11:49:46 --> Error: Undefined constant "BASE_URL"
+[Method: GET, Route: /]
+in APPPATH\Views\index.php on line 26.
+ 1 SYSTEMPATH\View\View.php(234): include()
+ 2 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('index', [], true)
+ 4 APPPATH\Controllers\HelloController.php(29): view('index', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\HelloController->index()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HelloController))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\sosmed\\public\\index.php')
+CRITICAL - 2024-04-29 11:50:18 --> Error: Undefined constant "BASE_URL"
+[Method: GET, Route: /]
+in APPPATH\Views\index.php on line 26.
+ 1 SYSTEMPATH\View\View.php(234): include()
+ 2 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('index', [], true)
+ 4 APPPATH\Controllers\HelloController.php(29): view('index', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\HelloController->index()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HelloController))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\sosmed\\public\\index.php')
+CRITICAL - 2024-04-29 11:52:39 --> Error: Undefined constant "BASE_URL"
+[Method: GET, Route: /]
+in APPPATH\Views\index.php on line 26.
+ 1 SYSTEMPATH\View\View.php(234): include()
+ 2 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('index', [], true)
+ 4 APPPATH\Controllers\HelloController.php(29): view('index', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\HelloController->index()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HelloController))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\sosmed\\public\\index.php')
+CRITICAL - 2024-04-29 12:04:30 --> ErrorException: Undefined array key "timestamp"
+[Method: GET, Route: /]
+in APPPATH\Views\index.php on line 57.
+ 1 APPPATH\Views\index.php(57): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "timestamp"', 'C:\\xampp\\htdocs\\sosmed\\app\\Views\\index.php', 57)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\sosmed\\app\\Views\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('index', [], true)
+ 5 APPPATH\Controllers\HelloController.php(29): view('index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\HelloController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HelloController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\sosmed\\public\\index.php')
+CRITICAL - 2024-04-29 12:04:31 --> ErrorException: Undefined array key "timestamp"
+[Method: GET, Route: /]
+in APPPATH\Views\index.php on line 57.
+ 1 APPPATH\Views\index.php(57): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "timestamp"', 'C:\\xampp\\htdocs\\sosmed\\app\\Views\\index.php', 57)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\sosmed\\app\\Views\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('index', [], true)
+ 5 APPPATH\Controllers\HelloController.php(29): view('index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\HelloController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HelloController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\sosmed\\public\\index.php')
+CRITICAL - 2024-04-29 12:12:11 --> ErrorException: Undefined array key "timestamp"
+[Method: GET, Route: /]
+in APPPATH\Views\index.php on line 62.
+ 1 APPPATH\Views\index.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "timestamp"', 'C:\\xampp\\htdocs\\sosmed\\app\\Views\\index.php', 62)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\sosmed\\app\\Views\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('index', [], true)
+ 5 APPPATH\Controllers\HelloController.php(29): view('index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\HelloController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HelloController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\sosmed\\public\\index.php')
+CRITICAL - 2024-04-29 12:12:20 --> ErrorException: Undefined array key "timestamp"
+[Method: GET, Route: /]
+in APPPATH\Views\index.php on line 62.
+ 1 APPPATH\Views\index.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "timestamp"', 'C:\\xampp\\htdocs\\sosmed\\app\\Views\\index.php', 62)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\sosmed\\app\\Views\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('index', [], true)
+ 5 APPPATH\Controllers\HelloController.php(29): view('index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\HelloController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HelloController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\sosmed\\public\\index.php')
+CRITICAL - 2024-04-29 12:12:53 --> ErrorException: Undefined array key "timestamp"
+[Method: GET, Route: /]
+in APPPATH\Views\index.php on line 65.
+ 1 APPPATH\Views\index.php(65): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "timestamp"', 'C:\\xampp\\htdocs\\sosmed\\app\\Views\\index.php', 65)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\sosmed\\app\\Views\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('index', [], true)
+ 5 APPPATH\Controllers\HelloController.php(29): view('index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\HelloController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HelloController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\sosmed\\public\\index.php')
+CRITICAL - 2024-04-29 12:12:57 --> ErrorException: Undefined array key "timestamp"
+[Method: GET, Route: /]
+in APPPATH\Views\index.php on line 65.
+ 1 APPPATH\Views\index.php(65): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "timestamp"', 'C:\\xampp\\htdocs\\sosmed\\app\\Views\\index.php', 65)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\sosmed\\app\\Views\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('index', [], true)
+ 5 APPPATH\Controllers\HelloController.php(29): view('index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\HelloController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HelloController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\sosmed\\public\\index.php')
+CRITICAL - 2024-04-29 12:13:05 --> ErrorException: Undefined array key "timestamp"
+[Method: GET, Route: /]
+in APPPATH\Views\index.php on line 65.
+ 1 APPPATH\Views\index.php(65): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "timestamp"', 'C:\\xampp\\htdocs\\sosmed\\app\\Views\\index.php', 65)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\sosmed\\app\\Views\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('index', [], true)
+ 5 APPPATH\Controllers\HelloController.php(29): view('index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\HelloController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HelloController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\sosmed\\public\\index.php')
+CRITICAL - 2024-04-29 12:13:33 --> ParseError: syntax error, unexpected token ";", expecting "]"
+[Method: GET, Route: /]
+in APPPATH\Controllers\HelloController.php on line 22.
+ 1 VENDORPATH\composer\ClassLoader.php(427): Composer\Autoload\{closure}('C:\\xampp\\htdocs\\sosmed\\vendor\\composer/../../app\\Controllers\\HelloController.php')
+ 2 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Controllers\\HelloController')
+ 3 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\HelloController', true)
+ 4 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\sosmed\\public\\index.php')
+CRITICAL - 2024-04-29 12:23:49 --> ErrorException: include(core/init.php): Failed to open stream: No such file or directory
+[Method: GET, Route: /]
+in APPPATH\Views\index.php on line 5.
+ 1 APPPATH\Views\index.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(core/init.php): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\sosmed\\app\\Views\\index.php', 5)
+ 2 APPPATH\Views\index.php(5): include()
+ 3 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\sosmed\\app\\Views\\index.php')
+ 4 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('index', [], true)
+ 6 APPPATH\Controllers\HelloController.php(29): view('index', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\HelloController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HelloController))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\sosmed\\public\\index.php')
+CRITICAL - 2024-04-29 12:40:49 --> ErrorException: Undefined array key "timestamp"
+[Method: GET, Route: /]
+in APPPATH\Views\index.php on line 58.
+ 1 APPPATH\Views\index.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "timestamp"', 'C:\\xampp\\htdocs\\sosmed\\app\\Views\\index.php', 58)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\sosmed\\app\\Views\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('index', [], true)
+ 5 APPPATH\Controllers\HelloController.php(29): view('index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\HelloController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HelloController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\sosmed\\public\\index.php')
